@@ -73,6 +73,33 @@ a:hover {
     /*Свойство, которое задаёт минимальную высоту элемента*/
 }
 
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #e6e6e6;
+}
+
+.panel-info>.panel-heading {
+    background-color: orange;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
 
 footer {
     color: #666666;
